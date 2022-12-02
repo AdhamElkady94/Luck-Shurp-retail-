@@ -1,0 +1,59 @@
+body {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-areas: "nav"
+        "blank aboutUS blank"
+        "bla gardenDesign bla"
+        "products products products"
+        "footer";
+}
+
+
+nav ul {
+background-color: rgba(83, 14, 73, 0.25);
+    border-radius: 25px;
+    list-style: none;
+    text-align:center;
+    height: 60px;
+    width: 800px;
+    margin-left: 300px;
+    
+    
+}
+nav li {
+    color: rgb(14, 14, 14); 
+   
+   padding-top: 15px;
+        margin-left: 20px;
+            margin-right: 20px;
+        border: 20px;
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.aboutUs {
+background-color: rgba(53, 206, 26, 0.638);
+
+height: 600px;
+
+}
+#logo {
+    
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+#intro {
+    grid-area: "aboutUs";
+    width: 1000px;
+    margin: 50px;
+text-align: center;
+padding-bottom: 20px;
+font-size: xx-large;
+padding-left: 200px;
+padding-right: 60px;
+color: rgb(234, 228, 228);
+}

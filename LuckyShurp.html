@@ -2,25 +2,30 @@
 <html lang="en">
 
 <head>
-    <title>Lucky Sharp |{"$place"}</title>
+    <title>Lucky Sharp | {"$place"}</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <nav>
         <ul>
-            <li><img src="Asset 2@3x.png"></li>
-            <li>About Us</li>
-            <li>Garden Design</li>
-            <li>Shop</li>
-            <li>Contact</li>
-            <li><img src="shopping-cart-logo-or-icon-design-vector.jpg"></li>
+            <li id="home"></li>
+            <li id="about">About Us</li>
+            <li id="design">Garden Design</li>
+            <li id="shop">Shop</li>
+            <li id="contact">Contact</li>
+            <li id="cart"></li>
         </ul>
     </nav>
+
+
     <main>
         <section>
-            <article>
-                <H><img src="Asset 2@3x.png"></H>
-                <P>
+            <article class="aboutUs">
+                <H><img id="logo" src="shrub2.png"
+                        style="height: 200px; width: 200px; object-fit: scale-down; object-position: 0 -20%;"></H>
+                <P id="intro">
                     Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for
                     plants.
                     Jason is the garden architect. He creates and oversees all designs while managing his team of
@@ -30,7 +35,32 @@
                 <div id="motos"></div>
             </article>
         </section>
+
+        <section>
+            <article class="gardenDesign">
+                <p>
+                    Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in
+                    garden design and
+                    creation, maintenance and landscaping.
+                    The company also runs a small plant nursery that sells indoor and outdoor plants,
+                    making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".
+                </p>
+                <div id="photos"></div>
+            </article>
+        </section>
+
+
+        <section>
+            <div class="products"></div>
+        </section>
     </main>
+
+    <footer>
+        <p>
+            copy rights
+        </p>
+        <div>contacts</div>
+    </footer>
 </body>
 
 </html>
