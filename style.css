@@ -1,59 +1,155 @@
 body {
-        background-color: whitesmoke;
-        display: grid;
-        grid-template-areas: "nav"
-        "blank aboutUS blank"
-        "bla gardenDesign bla"
-        "products products products"
-        "footer";
-}
-
-
-nav ul {
-background-color: rgba(83, 14, 73, 0.25);
-    border-radius: 25px;
-    list-style: none;
-    text-align:center;
-    height: 60px;
-    width: 800px;
-    margin-left: 300px;
-    
-    
-}
-nav li {
-    color: rgb(14, 14, 14); 
-   
-   padding-top: 15px;
-        margin-left: 20px;
-            margin-right: 20px;
-        border: 20px;
-    display: inline-block;
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(200, 195, 195, 0.219);
    
 }
+
+ #container {
+    position: relative;
+    top: 0%;  
+    background-image:url("commercial-garden-design-developmentX.jpg") ; 
+    height: 750px;
+    width: 1500px;
+    margin-top: 0%;
+    padding: 0%;    
+ }
+
+  nav ul {
+     position: fixed;
+     top: 0px;
+     background-color: rgba(44, 14, 83, 0.25);
+     border-radius: 25px;
+     list-style: none;
+     text-align: center;
+     height: 60px;
+     width: 800px;
+     margin-left: 300px;
+     z-index: 1
+       
+ }
+
+  nav li {
+     font-family: Helvetica;
+     color: rgb(244, 240, 240);
+     padding-top: 15px;
+     margin-left: 20px;
+     margin-right: 20px;
+     border: 20px;
+     display: inline-block;
+     font-size: x-large;
+ }
+/*
+ #container img {
+    position: relative;
+    top: 10%;
+    right: 15px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        width: 25%;
+        height: 25%;
+    }
+ */
+
+ #container h1 {
+    position: absolute;
+    top: 120px;
+    font-family: Helvetica;
+    font-size: 10rem;  
+    color: aliceblue;  
+    text-align: center;
+    display: block;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    }
+    
+    @keyframes reveal {
+        0% {
+            transform: translate(0, 50%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+    }
+
+
+
+
 .aboutUs {
-background-color: rgba(53, 206, 26, 0.638);
-
-height: 600px;
-
+    background-color: rgba(102, 130, 209, 0.638);
+    height: 600px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
 }
 #logo {
     
     display: block;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 80px;
     width: 15%;
 }
 #intro {
-    grid-area: "aboutUs";
     width: 1000px;
-    margin: 50px;
-text-align: center;
-padding-bottom: 20px;
-font-size: xx-large;
-padding-left: 200px;
-padding-right: 60px;
-color: rgb(234, 228, 228);
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    padding-left: 230px;
+    color: rgb(234, 228, 228);
+}
+ 
+/*rgba(220, 72, 220, 0.229)*/
+.gardenDesign {
+    background-color: rgba(125, 232, 106, 0.404);
+    height: 600px;
+    width: 100%;
+}
+
+
+.gardenDesign h1 {
+    position: relative;
+    right: 25px;
+    margin-top: 10px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgba(23, 24, 23, 0.784);
+}
+
+
+#work {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgba(20, 19, 19, 0.603);
+}
+
+
+.products {
+    background-color: rgba(185, 184, 185, 0.208);
+    height: 600px;
+    width: 100%;
+}
+
+.products h1 {
+    text-align: center;
+    color: rgba(71, 180, 52, 0.784);
+    margin-top: 10px;
+    padding-top: 80px;
+}
+
+
+footer {
+ display: inline-flex;   
 }
