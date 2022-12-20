@@ -1,68 +1,60 @@
 body {
-    background-color: rgba(200, 195, 195, 0.219);
-   
+     background-color: rgba(200, 195, 195, 0.219);   
 }
 
- #container {
-    position: relative;
-    top: 0%;  
-    background-image:url("commercial-garden-design-developmentX.jpg") ; 
-    height: 750px;
-    width: 1500px;
-    margin-top: 0%;
-    padding: 0%;    
+
+#container {
+     position: relative;
+     top: 10%;  
+     background-image:url("commercial-garden-design-developmentX.jpg") ; 
+     height: 750px;
+     width: 1500px;
+     margin-top: 0%;
+     padding: 0%;    
  }
 
-  nav ul {
+ nav ul {
+
      position: fixed;
-     top: 0px;
-     background-color: rgba(44, 14, 83, 0.25);
-     border-radius: 25px;
+     top: -9px;
+     background-color: rgba(81, 82, 82, 0.414);
+     border-radius: 15px;
      list-style: none;
-     text-align: center;
      height: 60px;
-     width: 800px;
-     margin-left: 300px;
-     z-index: 1
-       
+     width: 96%;
+     z-index: 1;
+     text-align: center;
+     display: inline-block;
+    
  }
 
-  nav li {
-     font-family: Helvetica;
-     color: rgb(244, 240, 240);
-     padding-top: 15px;
-     margin-left: 20px;
-     margin-right: 20px;
-     border: 20px;
+ nav li {
      display: inline-block;
+     position: relative;
+     right: 100px;
+     font-family: Helvetica;
+     color: rgb(0, 0, 0);
+     padding-top: 10px;
+     margin-left: 35px;
+     margin-right: 35px;
+     margin-bottom: 20px;
+     padding-bottom: 50px;
+     border: 20px;
      font-size: x-large;
+     margin-top: 0%;
  }
-/*
- #container img {
-    position: relative;
-    top: 10%;
-    right: 15px;
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-        margin-right: auto;
-        padding-top: 80px;
-        width: 25%;
-        height: 25%;
-    }
- */
 
  #container h1 {
-    position: absolute;
-    top: 120px;
-    font-family: Helvetica;
-    font-size: 10rem;  
-    color: aliceblue;  
-    text-align: center;
-    display: block;
-    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+     position: absolute;
+     top: 120px;
+     font-family: Helvetica;
+     font-size: 10rem;  
+     color: aliceblue;  
+     text-align: center;
+     display: block;
+     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     }
-    
+
     @keyframes reveal {
         0% {
             transform: translate(0, 50%);
@@ -73,83 +65,173 @@ body {
             transform: translate(0, 0);
             opacity: 1;
         }
-    }
-
+}
 
 
 
 .aboutUs {
-    background-color: rgba(102, 130, 209, 0.638);
-    height: 600px;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    border: 0ch;
+    background-color: white;
+     height: 600px;
+     width: 100%;
+     margin: 0%;
+     padding: 0%;
+     border: 0ch;
+ }
+
+ #logo {
+     display: block;
+     margin-top: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 80px;
+     width: 15%;
+ }
+
+ #intro {
+     width: 1000px;
+     margin: 20px;
+     text-align: center;
+     padding-bottom: 20px;
+     font-size: xx-large;
+     padding-left: 230px;
+     color: rgb(88, 85, 10);
 }
-#logo {
-    
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    width: 15%;
-}
-#intro {
-    width: 1000px;
-    margin: 20px;
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    padding-left: 230px;
-    color: rgb(234, 228, 228);
-}
- 
-/*rgba(220, 72, 220, 0.229)*/
+
+
+
 .gardenDesign {
-    background-color: rgba(125, 232, 106, 0.404);
-    height: 600px;
-    width: 100%;
-}
-
-
-.gardenDesign h1 {
-    position: relative;
-    right: 25px;
-    margin-top: 10px;
-    padding-top: 80px;
-    text-align: center;
-    font-size: xx-large;
-    color: rgba(23, 24, 23, 0.784);
-}
-
-
-#work {
-    padding-top: 30px;
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: xx-large;
     
-    padding-left: 50px;
-    padding-right: 50px;
-    color: rgba(20, 19, 19, 0.603);
+     
+     height: 600px;
+     width: 100%;
+ }
+
+ .gardenDesign h1 {
+     position: relative;
+     right: 25px;
+     margin-top: 10px;
+     padding-top: 80px;
+     text-align: center;
+     font-size: 3rem;
+     color: rgba(205, 0, 0, 0.767);
+ }
+
+ #work {
+     padding-top: 0px;
+     text-align: center;
+     padding-bottom: 20px;
+     font-size: xx-large;
+     padding-left: 50px;
+     padding-right: 50px;
+     color: rgb(0, 0, 0);
+ }
+
+ .flexContaioner {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ #items {
+     margin-left: 130px;
+     margin-right: 130px;
+     margin-top: 40px;
+     text-align: center;
+     font-size: 2rem;
 }
+
 
 
 .products {
-    background-color: rgba(185, 184, 185, 0.208);
-    height: 600px;
-    width: 100%;
+     background-color: rgba(185, 184, 185, 0.208);
+     height: 600px;
+     width: 100%;
+ }
+
+ .products h1 {
+     text-align: center;
+     color: rgb(0, 0, 0);
+     margin-top: 10px;
+     padding-top: 30px;
+     font-size: 3rem;
+ }
+
+ .flexbox {
+     display: grid;
+     grid-template-columns: 320px 320px 320px;
+     grid-template-rows: 400px;
+     gap: 70px;
+     padding-left: 200px;
+     padding-right: 200px;
+ }
+
+ #prod-one {
+      background-color: rgb(242, 233, 233);
+      border-radius: 25px;
+    }
+
+ #prod-one h1 {
+     color: rgba(52, 180, 161, 0.784);
+     font-size: larger;
+     padding-top: 5px;
+     text-align: center;
+ }  
+
+ #prod-one p {
+     text-align: center;
+     font-size: large;
+     color: rgb(72, 71, 71);
+ }
+
+ #prod-two {    
+      background-color:rgb(242, 233, 233);
+     border-radius: 25px;    
+ }
+
+  #prod-two h1 {
+      color: rgba(52, 180, 161, 0.784);
+      font-size: larger;
+      padding-top: 5px;
+      text-align: center;
+ }
+
+  #prod-two p {
+      text-align: center;
+      font-size: large;
+      color: rgb(72, 71, 71);
+ }
+
+  #prod-three { 
+     background-color: rgb(242, 233, 233);
+     border-radius: 25px;
+ }
+
+ #prod-three h1 {
+     color: rgba(52, 180, 161, 0.784);
+     font-size: larger;
+     padding-top: 5px;
+     text-align: center;
+ }
+
+ #prod-three p {
+     text-align: center;
+     font-size: large;
+     color: rgb(72, 71, 71);
 }
 
-.products h1 {
-    text-align: center;
-    color: rgba(71, 180, 52, 0.784);
-    margin-top: 10px;
-    padding-top: 80px;
-}
+ 
 
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
 
-footer {
- display: inline-flex;   
+ #rights {
+     margin-left: 40px;
+ }
+
+ #contacts {
+     align-self: flex-end;
+     margin-right: 10px;
 }
